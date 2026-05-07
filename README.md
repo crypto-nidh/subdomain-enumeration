@@ -14,3 +14,9 @@ This repository contains commands and tools for **passive reconnaissance** and *
 #### Using crt.sh
 ```bash
 curl -s "https://crt.sh/?q=%.target.com&output=json" | jq -r '.[].name_value' | sort -u
+```bash
+
+---
+
+#### Using subfinder 
+```bash
